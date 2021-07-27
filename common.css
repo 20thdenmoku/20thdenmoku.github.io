@@ -17,7 +17,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 html{font-size:62.5%;overflow-y:scroll;}
 body{
-	font-family:'游ゴシック',"/Arita4.0_M.otf",-apple-system,BlinkMacSystemFont,'.SFNSDisplay-Regular','Helvetica Neue','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Roboto,'Droid Sans',sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	font-size:16px;
 	color:#0a1830;
 	background:#FFF;
