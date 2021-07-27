@@ -1,0 +1,749 @@
+@charset "utf-8";
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          google fonts          */
+
+/*          loading          */
+
+/*          Site Contents          */
+
+/*          keyvisual Contents          */
+.keyvisualWrap {
+	padding: 120px 0 0;
+}
+.keyvisualContent {
+	position: relative;
+	width: 90.3%;
+	margin: 0 auto;
+}
+.keyvisual {
+	padding-top: 66%;
+	background: url(/books/20thdenmoku/img/top/keyvisual.jpg) no-repeat center / contain;
+}
+.keyvisualCopy {
+	position: absolute;
+	top:4%;
+	right: 5%;
+	width: 372px;
+}
+.keyvisualTopics {
+	position: relative;
+	width: 1000px;
+	margin: -45px auto 0;
+}
+.topics {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: space-between;justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 60px 0 0;
+}
+
+/*          news Contents          */
+.newsContent {
+	position: relative;
+	display: -webkit-flex; display: flex;
+	width: 800px;
+	padding: 60px 0 0;
+	margin: 0 auto;
+	border-bottom: solid 1px;
+}
+.newsContent .heading {
+	line-height: 1;
+}
+.news {
+	margin: 0 0 0 40px;
+}
+.newsList li {
+	margin: 0 0 20px;
+	font-size: 14px;
+}
+.newsList li a {
+	display: block;
+	margin: 0 0 5px;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.newsList li time {
+	display: inline-block;
+}
+.newsList li div {
+	display: inline-block;
+}
+
+/*          intro Contents          */
+.introWrap {
+	position: relative;
+}
+.introContent {
+	padding: 150px 0 0;
+}
+.intro {
+	text-align: center;
+	background: url(/books/20thdenmoku/img/top/introBg.png) no-repeat center;
+}
+.introItem {
+	display: inline-block;
+	padding: 65px 0 30px 275px;
+	text-align: left;
+}
+.intro .copy {
+	font-size: 32px;
+	line-height: 1.6;
+	letter-spacing: 4px;
+	opacity:0;
+	-webkit-transform:translateY(7%); transform:translateY(7%);
+}
+.intro .copy.show {
+	-webkit-animation-name: ItemInUp;
+	animation-name: ItemInUp;
+	-webkit-animation-duration: .8s;
+	animation-duration: .8s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.intro .copy .red {
+	color: #f4465e;
+}
+.intro .text {
+	font-size: 18px;
+	line-height: 2.1;
+}
+.intro .text .para1, .intro .text .para2, .intro .text .para3 {
+	padding: 25px 0 0;
+}
+.introNezumiBox {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	padding: 115px 0 0;
+}
+.introNezumi {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 73px;
+}
+
+/*          story Contents          */
+.storyWrap {
+	position: relative;
+}
+.storyContent {
+	padding: 150px 0 130px;
+	background: #c8f1ff;
+}
+.story {
+	padding: 60px 0 0;
+}
+.storyBgCopy {
+	position: relative;
+	width: 1100px;
+	height: 265px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.storyBgCopy .bg {
+	width: 1100px;
+	height: 719px;
+	background: url(/books/20thdenmoku/img/top/storyBg.jpg) no-repeat top / cover;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.storyBgCopy.show .bg {
+	-webkit-animation-name: grayToColor;
+	animation-name: grayToColor;
+	-webkit-animation-duration: .8s;
+	animation-duration: .8s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+.story .copy1 {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: #FFF;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.6;
+	letter-spacing: 4px;
+	opacity:0;
+}
+.story .show .copy1 {
+	-webkit-animation-name: ItemInUp2;
+	animation-name: ItemInUp2;
+	-webkit-animation-duration: .8s;
+	animation-duration: .8s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+.story .textBox {
+	position: relative;
+	width: 900px;
+	margin: -35px auto 0;
+	padding: 50px;
+	background: #FFF;
+}
+.story .copy2 {
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+.story .text {
+	padding: 35px 0 0;
+	line-height: 2.2;
+	font-size: 18px;
+}
+.storyNezumi {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 73px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+/*          chara Contents          */
+.charaContent {
+	padding: 150px 0 130px;
+	background: url(/books/20thdenmoku/img/top/charaBg.png) no-repeat top;
+}
+.chara {
+	padding: 60px 0 0;
+}
+.charaChart {
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.charaNezumiBox {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	padding: 100px 0 0;
+}
+.charaNezumi {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 73px;
+}
+.charaIndivi {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+.charaBox {
+	display: -webkit-flex; display: flex;
+	height: 205px;
+	padding: 30px;
+	align-items: center;
+	border-top: 1px solid;
+}
+.charaBox.chara1 {
+border-top: none;
+}
+.charaBox .name {
+	width: 152px;
+}
+.charaBox .text {
+	width: 590px;
+	margin: 0 0 0 30px;
+	line-height: 1.8;
+}
+
+/*          special Contents          */
+.specialContent {
+	padding: 150px 0 130px;
+	background: #ffd3eb;
+}
+.special {
+	margin: 0 auto;
+	padding: 50px 0 0;
+}
+.specialList {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: space-between;justify-content: space-between;
+	-webkit-flex-wrap: wrap;flex-wrap: wrap;
+	width: 930px;
+	margin: 0 auto;
+}
+.specialList li {
+	width: 290px;
+	margin: 0 0 30px;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.specialList li .text {
+	padding: 20px 20px 10px;
+	background: #FFF;
+}
+.specialList li .name {
+	height: 4em;
+	border-bottom: 1px solid;
+}
+.specialList li .viewmore {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 18px 0 0;
+	padding: 0 50px 0 0;
+	text-align: right;
+	font-size: 12px;
+}
+.specialList li .viewmore span {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 30px;
+	height: 1px;
+	background-color: #0a1830;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.specialList li .viewmore span::before {
+	content:'';
+	position: absolute;
+	right: -1px;
+	bottom: 0;
+	width: 1px;
+	height: 8px;
+	background-color: #0a1830;
+	-webkit-transform-origin: right bottom;
+	transform-origin: right bottom;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.specialList li .viewmore span::after {
+	content:'';
+	position:absolute;
+	right:-2px;
+	bottom:-2px;
+	width:100%;
+	height:2px;
+	background-color:#FFF;
+}
+.specialList li a:hover .viewmore span, .specialList li a:hover .viewmore span::before {
+	background-color:#1d2db3;
+}
+.specialList li a:hover .viewmore span {
+	right: 5px;
+}
+.specialList li .fin {
+	padding-left: 1rem;
+	font-size: 12px;
+}
+.specialNezumiBox {
+	position: relative;
+	width: 930px;
+	margin: 0 auto;
+}
+.specialNezumi {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 73px;
+}
+
+/*          books Contents          */
+.booksWrap {
+	position: relative;
+}
+.booksContent {
+	padding: 150px 0 130px;
+	background: #c8f1ff;
+}
+.books {
+	display: -webkit-flex; display: flex;
+	margin: 0 auto;
+	padding: 60px 0 0;
+	width: 800px;
+}
+.books .cover {
+	width: 400px;
+}
+.books .detail {
+	width: 400px;
+	padding: 30px 40px;
+	background: #FFF;
+}
+.books .detail .heading {
+	font-size: 26px;
+}
+.books .data1 {
+	padding: 35px 0 0;
+	line-height: 1.8;
+}
+.books .data2 {
+	padding: 25px 0 0;
+	line-height: 1.8;
+}
+.saleLink {
+	padding: 25px 0 0;
+}
+.saleLink .store {
+	padding: 10px 0 0;
+}
+.saleLink a {
+	position: relative;
+	display: inline-block;
+	width: 320px;
+	padding: 10px 15px;
+	border: 1px solid;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	width: 30px;
+	height: 1px;
+	background-color: #0a1830;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span::before {
+	content:'';
+	position: absolute;
+	right: -1px;
+	bottom: 0;
+	width: 1px;
+	height: 8px;
+	background-color: #0a1830;
+	-webkit-transform-origin: right bottom;
+	transform-origin: right bottom;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span::after {
+	content:'';
+	position:absolute;
+	right:-2px;
+	bottom:-2px;
+	width:100%;
+	height:2px;
+	background-color:#FFF;
+}
+.saleLink a:hover span, .saleLink a:hover span::before {
+	background-color:#1d2db3;
+}
+.saleLink a:hover span {
+	right: 25px;
+}
+.booksNezumi {
+	position: absolute;
+	bottom: -25px;
+	left: 50%;
+	width: 73px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*headerWrap  --  scroll*/
+.fixOff.headerWrap, .fixOn.headerWrap {
+	position: fixed;
+	height: 100px;
+}
+.fixOff.headerWrap, .abs.headerWrap {
+	top: -120px;
+}
+.fixOn.headerWrap {
+	top: 0px;
+}
+.fixOff .headerBox, .fixOn .headerBox {
+	height: 100px;
+}
+.fixOff .navigationBtn .logo, .fixOn .navigationBtn .logo {
+	width: 150px;
+}
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Media Screen     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          SP          */
+@media screen and (max-width:768px) {
+	/*          keyvisual Contents          */
+	.keyvisualWrap {
+		padding: 0;
+	}
+		.keyvisualContent {
+		width: 90%;
+	}
+	.keyvisual {
+		padding-top: 135.5%;
+		background: url(/books/20thdenmoku/img/top/keyvisual_sp.jpg) no-repeat top / 100% auto;
+	}
+	.keyvisualCopy {
+		top: 20px;
+		left: 3%;
+		right: 0;
+		width: 6%;
+	}
+	.keyvisualTopics {
+		width: 90%;
+		margin: -10% auto 0;
+	}
+	.topics {
+		-webkit-justify-content: center;justify-content: center;
+		-webkit-flex-wrap: wrap; flex-wrap: wrap;
+		width: 90%;
+		padding: 30px 0 0;
+	}
+	.topics li:nth-child(2) {
+		padding: 10px 0 0;
+	}
+	
+	/*          news Contents          */
+	.newsContent {
+		display: block;
+		width: 90%;
+		padding: 30px 0 10px;
+	}
+	.news {
+		margin: 20px 0 0;
+	}
+	.newsList li {
+		margin: 0 0 10px;
+		font-size: 12px;
+	}
+	.newsList li a {
+		display: -webkit-flex; display: flex;
+	}
+	.newsList li time {
+		display: block;
+	}
+	.newsList li div {
+		display: block;
+		margin: 0 0 0 8px;
+	}
+
+	/*          intro Contents          */
+	.introContent {
+		padding: 60px 0 0;
+	}
+	.intro {
+		margin: 5px 0 0;
+		background: url(/books/20thdenmoku/img/top/introBg_sp.png) no-repeat top / contain;
+	}
+	.introItem {
+		width: 90%;
+		max-width: 400px;
+		padding: 46% 0 0;
+	}
+	.intro .copy {
+		font-size: 20px;
+		line-height: 1.9;
+		letter-spacing: 2.5px;
+	}
+	.intro .copy.show {
+		-webkit-animation-delay: .8s;
+		animation-delay: .8s;
+	}
+	.intro .text {
+		font-size: 15px;
+		line-height: 1.7;
+	}
+	.intro .text .para1, .intro .text .para2, .intro .text .para3 {
+		padding: 20px 0 0;
+	}
+	.introBg2Sp {
+		margin: -8% 0 0;
+		padding-top: 9.1%;
+		background: url(/books/20thdenmoku/img/top/introBg2_sp.png) no-repeat top / contain;
+	}
+	.introNezumiBox {
+		width: 90%;
+		margin: 0 auto;
+		padding: 45px 0 0;
+	}
+	.introNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+
+	/*          story Contents          */
+	.storyContent {
+		padding: 60px 0 65px;
+	}
+	.story {
+		padding: 30px 0 0;
+	}
+	.storyBgCopy {
+		width: 100%;
+		height: 165px;
+	}
+	.storyBgCopy .bg {
+		width: 100%;
+		height: 502px;
+		background: url(/books/20thdenmoku/img/top/storyBg.jpg) no-repeat left / cover;
+	}
+	.story .copy1 {
+		width: 95%;
+		font-size: 20px;
+		font-weight: normal;
+	}
+	.story .textBox {
+		width: 90%;
+		max-width: 600px;
+		margin: -25px auto 0;
+		padding: 20px;
+	}
+	.story .copy2 {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	.story .text {
+		padding: 18px 0 0;
+		line-height: 1.7;
+		font-size: 15px;
+	}
+	.storyNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+
+	/*          chara Contents          */
+	.charaContent {
+		padding: 60px 0 70px;
+		background: url(/books/20thdenmoku/img/top/charaBg_sp.png) no-repeat top / contain;
+	}
+	.chara {
+		padding: 30px 0 0;
+	}
+	.charaChart {
+		width: 90%;
+		max-width: 700px;
+	}
+	.charaNezumiBox {
+		width: 90%;
+		max-width: 600px;
+		padding: 50px 0 0;
+	}
+	.charaNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+	.charaIndivi {
+		width: 90%;
+		max-width: 600px;
+	}
+	.charaBox {
+		-webkit-flex-wrap: wrap; flex-wrap: wrap;
+		height: auto;
+		padding: 20px;
+		font-size: 15px;
+	}
+	.charaBox .name {
+		width: 40%;
+		max-width: 152px;
+		margin: 0 auto 10px;
+	}
+	.charaBox .text {
+		width: 100%;
+		margin: 0;
+	}
+
+	/*          special Contents          */
+	.specialContent {
+		padding: 60px 0 70px;
+	}
+	.special {
+		padding: 30px 0 0;
+	}
+	.specialList {
+		width: 90%;
+		max-width: 600px;
+	}
+	.specialList li {
+		width: 48.5%;
+		max-width: 290px;
+		margin: 0 0 15px;
+	}
+	.specialList li .text {
+		padding: 10px 8px 5px;
+	}
+	.specialList li .name {
+		height: 4em;
+		font-size: 14.5px;
+	}
+	.specialList li .viewmore {
+		margin: 9px 0 0;
+		padding: 0 45px 0 0;
+		font-size: 11px;
+	}
+	.specialList li .viewmore span {
+		right: 10px;
+		width: 25px;
+	}
+	.specialList li a:hover .viewmore span {
+		right: 10px;
+	}
+	.specialNezumiBox {
+		width: 90%;
+		max-width: 600px;
+	}
+	.specialNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+
+	/*          books Contents          */
+	.booksContent {
+		padding: 60px 0 70px;
+	}
+	.books {
+		-webkit-flex-wrap: wrap; flex-wrap: wrap;
+		padding: 30px 0 0;
+		width: 90%;
+		max-width: 400px;
+	}
+	.books .cover {
+		width: 100%;
+	}
+	.books .detail {
+		width: 100%;
+		padding: 20px;
+		font-size: 15px;
+	}
+	.books .detail .heading {
+		font-size: 18px;
+	}
+	.books .data1 {
+		padding: 15px 0 0;
+		line-height: 1.6;
+	}
+	.books .data2 {
+		padding: 15px 0 0;
+		line-height: 1.6;
+	}
+	.saleLink {
+		padding: 15px 0 0;
+	}
+	.saleLink a {
+		width: 100%;
+		padding: 10px 8px;
+		font-size: 13px;
+	}
+	.saleLink a span {
+		right: 5%;
+		width: 25px;
+	}
+	.saleLink a:hover span {
+		right: 5%;
+	}
+	.booksNezumi {
+		bottom: -1.6%;
+		width: 13%;
+		max-width: 50px;
+	}
+	
+	/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+	
+	
+}
