@@ -18,7 +18,7 @@
 }
 .keyvisual {
 	padding-top: 66%;
-	background: url(/books/20thdenmoku/img/top/keyvisual.jpg) no-repeat center / contain;
+	background: url(/002.jpg) no-repeat center / contain;
 }
 .keyvisualCopy {
 	position: absolute;
@@ -477,7 +477,7 @@ border-top: none;
 	}
 	.keyvisual {
 		padding-top: 135.5%;
-		background: url(/books/20thdenmoku/img/top/keyvisual_sp.jpg) no-repeat top / 100% auto;
+		background: url(/001.jpg) no-repeat top / 100% auto;
 	}
 	.keyvisualCopy {
 		top: 20px;
