@@ -79,7 +79,7 @@
 }
 .intro {
 	text-align: center;
-	background: url(/books/20thdenmoku/img/top/introBg.png) no-repeat center;
+	background: url(/AA.png) no-repeat center;
 }
 .introItem {
 	display: inline-block;
@@ -147,7 +147,7 @@
 .storyBgCopy .bg {
 	width: 1100px;
 	height: 719px;
-	background: url(/books/20thdenmoku/img/top/storyBg.jpg) no-repeat top / cover;
+	background: url(/BB.jpg) no-repeat top / cover;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
@@ -213,7 +213,7 @@
 /*          chara Contents          */
 .charaContent {
 	padding: 150px 0 130px;
-	background: url(/books/20thdenmoku/img/top/charaBg.png) no-repeat top;
+	background: url(/CC.png) no-repeat top;
 }
 .chara {
 	padding: 60px 0 0;
@@ -529,7 +529,7 @@ border-top: none;
 	}
 	.intro {
 		margin: 5px 0 0;
-		background: url(/books/20thdenmoku/img/top/introBg_sp.png) no-repeat top / contain;
+		background: url(/DD.png) no-repeat top / contain;
 	}
 	.introItem {
 		width: 90%;
@@ -555,7 +555,7 @@ border-top: none;
 	.introBg2Sp {
 		margin: -8% 0 0;
 		padding-top: 9.1%;
-		background: url(/books/20thdenmoku/img/top/introBg2_sp.png) no-repeat top / contain;
+		background: url(/EE.png) no-repeat top / contain;
 	}
 	.introNezumiBox {
 		width: 90%;
@@ -581,7 +581,7 @@ border-top: none;
 	.storyBgCopy .bg {
 		width: 100%;
 		height: 502px;
-		background: url(/books/20thdenmoku/img/top/storyBg.jpg) no-repeat left / cover;
+		background: url(/FF.jpg) no-repeat left / cover;
 	}
 	.story .copy1 {
 		width: 95%;
@@ -611,7 +611,7 @@ border-top: none;
 	/*          chara Contents          */
 	.charaContent {
 		padding: 60px 0 70px;
-		background: url(/books/20thdenmoku/img/top/charaBg_sp.png) no-repeat top / contain;
+		background: url(/GG.png) no-repeat top / contain;
 	}
 	.chara {
 		padding: 30px 0 0;
