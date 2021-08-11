@@ -8,7 +8,7 @@
 /*          Site Contents          */
 .lowerContent {
 	padding: 200px 0 60px;
-	background: url(/books/20thdenmoku/img/top/charaBg.png) no-repeat top;
+	background: url(/charaBg.png) no-repeat top;
 }
 .lowerItem {
 	padding: 75px 0 0;
@@ -434,7 +434,7 @@
 	/*          Site Contents          */
 	.lowerContent {
 		padding: 80px 0 30px;
-		background: url(/books/20thdenmoku/img/top/charaBg_sp.png) no-repeat top / contain;
+		background: url(/charaBg_sp.png) no-repeat top / contain;
 	}
 	.lowerItem {
 		padding: 45px 0 0;
