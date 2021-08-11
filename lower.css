@@ -1,0 +1,708 @@
+@charset "utf-8";
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          google fonts          */
+
+/*          loading          */
+
+/*          Site Contents          */
+.lowerContent {
+	padding: 200px 0 60px;
+	background: url(/books/20thdenmoku/img/top/charaBg.png) no-repeat top;
+}
+.lowerItem {
+	padding: 75px 0 0;
+}
+.lowerBox {
+	width: 960px;
+	padding: 80px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+.lowerBoxHeading {
+	margin: 0 0 60px;
+	padding: 0 0 30px;
+	border-bottom: 1px solid;
+}
+.lowerBoxHeading h4 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: normal;
+}
+.back {
+	width: 960px;
+	margin: 30px auto 0;
+}
+.back a {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 20px 70px;
+	border: 1px solid;
+	font-size: 14px;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.back a span {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	width: 30px;
+	height: 1px;
+	background-color: #0a1830;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.back a span::before {
+	content:'';
+	position: absolute;
+	left: -1px;
+	bottom: 0;
+	width: 1px;
+	height: 8px;
+	background-color: #0a1830;
+	-webkit-transform-origin: right bottom;
+	transform-origin: right bottom;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.back a span::after {
+	content:'';
+	position:absolute;
+	right:-2px;
+	bottom:-2px;
+	width:100%;
+	height:2px;
+	background-color:#FFF;
+}
+.back a:hover span, .saleLink a:hover span::before {
+	background-color:#1d2db3;
+}
+.back a:hover span {
+	left: 25px;
+}
+
+/*          comment Contents          */
+.commentIndiv .name {
+	padding: 0 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.commentIndiv .name span {
+	color: #47d5f9;
+}
+.commentIndiv .text {
+	line-height: 2.2;
+}
+.commentIndiv1 .name {
+	padding: 0 0 8px;
+}
+.commentIndiv2, .commentIndiv3 {
+	padding: 85px 0 0;
+}
+.commentBox2 {
+	margin: 0 auto;
+}
+.commentNezumiBox {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	padding: 120px 0 0;
+}
+.commentNezumi {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 72px;
+}
+.commentIndiv4 p {
+	margin: 50px 0 0;
+}
+.commentIndiv4 p:first-child {
+	margin: 0;
+}
+.commentBox2Heading {
+	text-align: center;
+	vertical-align: middle;
+}
+.commentBox2Heading h4 {
+	display: inline-block;
+	text-align: left;
+}
+.commentBox2Heading h4 span {
+	padding: 0 .5em 0 0;
+	font-size: 18px;
+}
+/*          sample Contents          */
+.sampleBox {
+	line-height: 2.5;
+	letter-spacing: 1px;
+}
+.sampleNezumi {
+	width: 40px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.sampleBoxSale {
+	margin: 100px 0 0;
+	padding: 60px 0 0;
+	border-top: 1px solid;
+}
+.sampleBoxSale .name {
+	font-size: 20px;
+}
+.saleLink {
+	padding: 10px 0 0;
+}
+.saleLink .store {
+	padding: 10px 0 0;
+}
+.saleLink a {
+	position: relative;
+	display: inline-block;
+	width: 320px;
+	padding: 2px 10px;
+	border: 1px solid;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	width: 30px;
+	height: 1px;
+	background-color: #0a1830;
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span::before {
+	content:'';
+	position: absolute;
+	right: -1px;
+	bottom: 0;
+	width: 1px;
+	height: 8px;
+	background-color: #0a1830;
+	-webkit-transform-origin: right bottom;
+	transform-origin: right bottom;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;
+}
+.saleLink a span::after {
+	content:'';
+	position:absolute;
+	right:-2px;
+	bottom:-2px;
+	width:100%;
+	height:2px;
+	background-color:#FFF;
+}
+.saleLink a:hover span, .saleLink a:hover span::before {
+	background-color:#1d2db3;
+}
+.saleLink a:hover span {
+	right: 25px;
+}
+
+/*          map Contents          */
+.mapBox {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*          glossary Contents          */
+.glossaryNotes {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 0 3px 10px;
+	font-size: 13px;
+}
+.glossaryNezumiBox {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.glossaryNezumi {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 73px;
+}
+.glossaryBox  {
+	padding: 0;
+}
+.glossaryIndiv {
+	padding: 40px 80px;
+	border-top: 1px solid;
+}
+.glossaryIndiv1 {
+	border-top: none;
+}
+.glossaryIndiv .name {
+	position: relative;
+	padding: 0 0 5px;
+	text-align: center;
+	font-size: 24px;
+}
+.glossaryIndiv .name::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 1.2em;
+	height: 1px;
+	background: #47d5f9;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.glossaryIndiv .text {
+	padding: 25px 0 0;
+	line-height: 1.6;
+}
+
+/*          presents Contents          */
+.presentsIconList {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: center;justify-content: center;
+}
+.presentsIconList li {
+	width: 200px;
+	margin: 0 20px;
+}
+.presentsWallpaperBox {
+	margin: 120px auto 0;
+}
+.presentsWallpaperList {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: center;justify-content: center;
+	text-align: center;
+}
+.presentsWallpaperList li {
+	margin: 0 20px;
+}
+.WallpaperPc img {
+	width: 480px;
+}
+.WallpaperSp img {
+	width: 180px;
+}
+.presentsWallpaperList .size {
+	padding: 15px 0 0;
+	font-size: 15px;
+}
+.presentsWallpaperList .size span {
+	font-size: 12px;
+}
+
+/*          movie Contents          */
+.movieIndiv {
+	text-align: center;
+}
+.movieIndiv a {
+	position: relative;
+	display: block;
+	margin: 0 0 15px;
+}
+.movieIndiv .play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.movieIndiv1 {
+	margin: 0 0 80px;
+}
+
+/*          camp21th Contents          */
+.camp21th {
+	margin: 0 auto;
+}
+.camp21thHeading {
+	margin: 0 auto;
+	text-align: center;
+}
+.camp21thIntro {
+	width: 970px;
+	margin: 0 auto;
+	padding: 100px 40px 0;
+	font-size: 18px;
+	line-height: 1.7;
+}
+.camp21thIntro .red {
+	color: #f4465e;
+}
+.camp21thWorkBox {
+	position: relative;
+	margin: 60px 0 0;
+	padding: 60px 0 90px;
+	background: #fffee0;
+}
+.camp21thWorkHeading {
+	text-align: center;
+	font-size: 32px;
+	color: #1d2db3;
+}
+.camp21thWorkHeading span {
+	display: block;
+	padding: 5px 0 0;
+	font-size: 18px;
+}
+.camp21thWorkList {
+	display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-between;justify-content: space-between;
+	-webkit-flex-wrap: wrap;flex-wrap: wrap;
+	width: 970px;
+	margin: 0 auto;
+	padding: 60px 0 0;
+}
+.camp21thWork {
+	width: 312px;
+	margin: 0 0 17px;
+	font-size: 14px;
+	border: 3px solid #fae828;
+	background: #FFF;
+}
+.camp21thWork .detail {
+	height: 152px;
+	margin: 17px 17px 0;
+	line-height: 1.6;
+}
+.camp21thWork .author {
+	padding: 20px 17px 20px 0;
+	text-align: right;
+	font-size: 12px;
+	color: #47d5f9;
+}
+.camp21thWorkNote {
+	width: 970px;
+	margin: 0 auto;
+	padding: 13px 0 0;
+	font-size: 14px;
+}
+.camp21thAnothIntro {
+	width: 970px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.camp21thAnothBox {
+	padding: 60px 0 100px;
+}
+.camp21thAnothList {
+	display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-between;justify-content: space-between;
+	-webkit-flex-wrap: wrap;flex-wrap: wrap;
+	width: 970px;
+	margin: 0 auto;
+	padding: 60px 0 0;
+}
+.camp21thAnoth {
+	width: 474px;
+	margin: 0 0 17px;
+	font-size: 14px;
+	border: 3px solid #47d5f9;
+}
+.camp21thAnoth .name {
+	margin: 0 auto;
+	text-align: center;
+}
+.camp21thAnoth .detail {
+	height: 90px;
+	margin: 17px 17px 20px 17px;
+	line-height: 1.6;
+}
+.camp21thNezumi {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 60px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+.headerWrap {
+	position: fixed;
+	height: 100px;
+}
+.headerBox {
+	height: 100px;
+}
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Media Screen     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          SP          */
+@media screen and (max-width:768px) {
+	/*          Site Contents          */
+	.lowerContent {
+		padding: 80px 0 30px;
+		background: url(/books/20thdenmoku/img/top/charaBg_sp.png) no-repeat top / contain;
+	}
+	.lowerItem {
+		padding: 45px 0 0;
+	}
+	.lowerBox {
+		width: 90%;
+		padding: 35px 20px;
+	}
+	.lowerBoxHeading {
+		margin: 0 0 30px;
+		padding: 0 0 15px;
+	}
+	.lowerBoxHeading h4 {
+		font-size: 23px;
+	}
+	.back {
+		width: 90%;
+		margin: 15px auto 0;
+	}
+	.back a {
+		padding: 10px 50px;
+		font-size: 13px;
+	}
+	.back a span {
+		left: 15px;
+		width: 25px;
+	}
+	.back a:hover span {
+		left: 15px;
+	}
+	
+	/*          comment Contents          */
+	.commentBoxHeading, .commentIndiv {
+		max-width: 500px;
+		margin: 0 auto 30px;
+	}
+	.commentIndiv .name {
+		padding: 0 0 10px;
+		font-size: 17px;
+	}
+	.commentIndiv .text {
+		font-size: 15px;
+		line-height: 1.7;
+	}
+	.commentIndiv1 .name {
+		padding: 0 0 4px;
+	}
+	.commentIndiv2, .commentIndiv3 {
+		padding: 42.5px 0 0;
+	}
+	.commentNezumiBox {
+		width: 90%;
+		padding: 60px 0 0;
+	}
+	.commentNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+	.commentIndiv4 p {
+		margin: 25px 0 0;
+	}
+	.commentBox2Heading h4 span {
+		font-size: 15px;
+	}
+
+
+	/*          sample Contents          */
+	.sampleBox {
+		font-size: 14px;
+		line-height: 2;
+		letter-spacing: .8px;
+	}
+	.sampleBox p {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.sampleNezumi {
+		width: 13%;
+		max-width: 40px;
+		padding: 30px 0;
+	}
+	.sampleBoxSale {
+		max-width: 500px;
+		margin: 50px auto 0;
+		padding: 30px 0 0;
+	}
+	.sampleBoxSale .name {
+		font-size: 18px;
+	}
+	.saleLink a {
+		width: 100%;
+		padding: 6px 8px;
+		font-size: 13px;
+	}
+	.saleLink a span {
+		right: 5%;
+		width: 25px;
+	}
+	.saleLink a:hover span {
+		right: 5%;
+	}
+	
+	/*          map Contents          */
+	.mapBox {
+		width: 90%;
+	}
+	
+	/*          glossary Contents          */
+	.glossaryNotes {
+		width: 90%;
+		padding: 0 0 2px 5px;
+		font-size: 10px;
+	}
+	.glossaryNezumiBox {
+		width: 90%;
+	}
+	.glossaryNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+	.glossaryBox {
+		padding: 0;
+	}
+	.glossaryIndiv {
+		padding: 30px 20px;
+	}
+	.glossaryIndiv .name {
+		font-size: 20px;
+	}
+	.glossaryIndiv .text {
+		padding: 15px 0 0;
+		font-size: 15px;
+	}
+
+	/*          presents Contents          */
+	.presentsIconList {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.presentsIconList li {
+		margin: 0 10px;
+	}
+	.presentsWallpaperBox  {
+		margin: 60px auto 0;
+	}
+	.presentsWallpaperList {
+		-webkit-flex-wrap: wrap;flex-wrap: wrap;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.presentsWallpaperList li {
+	margin: 0;
+	}
+	.WallpaperPc img {
+		width: 100%;
+	}
+	.WallpaperSp img {
+		width: 60%;
+	}
+	.presentsWallpaperList .WallpaperSp {
+		margin: 40px 0 0;
+	}
+	
+	/*          movie Contents          */
+	.movieIndiv a {
+		margin: 0 0 7.5px;
+	}
+	.movieIndiv .play {
+		width: 20%;
+		max-width: 80px;
+	}
+	.movieIndiv1 {
+		margin: 0 0 40px;
+	}
+	.movieIndiv .name {
+		font-size: 15px;
+	}
+	
+	/*          camp21th Contents          */
+	.camp21th {
+		
+	}
+	.camp21thHeading {
+		width: 90%;
+	}
+	.camp21thIntro {
+		width: 90%;
+		padding: 50px 10px 0;
+		font-size: 15px;
+	}
+	.camp21thWorkBox {
+		margin: 30px 0 0;
+		padding: 30px 0 45px;
+	}
+	.camp21thWorkHeading {
+		font-size: 20px;
+	}
+	.camp21thWorkHeading span {
+		padding: 5px 0 0;
+		font-size: 15px;
+	}
+	.camp21thWorkList {
+		width: 90%;
+		padding: 30px 0 0;
+	}
+	.camp21thWork {
+		position: relative;
+		width: 49%;
+		margin: 0 0 8.5px;
+		font-size: 12px;
+	}
+	.camp21thWork .detail {
+		height: auto;
+		margin: 8.5px 8.5px 40px;
+	}
+	.camp21thWork .author {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding: 10px 8.5px 10px 0;
+		font-size: 11px;
+	}
+	.camp21thWorkNote {
+		width: 90%;
+		padding: 6.5px 0 0;
+		font-size: 11px;
+	}
+	.camp21thAnothIntro {
+		width: 90%;
+		font-size: 15px;
+	}
+	.camp21thAnothBox {
+		padding: 30px 0 50px;
+	}
+	.camp21thAnothList {
+		width: 90%;
+		padding: 30px 0 0;
+	}
+	.camp21thAnoth {
+		width: 49%;
+		margin: 0 0 8.5px;
+		font-size: 12px;
+	}
+	.camp21thAnoth .name {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.camp21thAnoth .detail {
+		height: auto;
+		margin: 8.5px 8.5px 10px 8.5px;
+		line-height: 1.6;
+	}
+	.camp21thNezumi {
+		width: 13%;
+		max-width: 50px;
+	}
+	
+	/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+	.headerWrap {
+		position: relative;
+		height: auto;
+	}
+	.headerBox {
+		height: auto;
+	}
+	.navigationBtn .logo {
+		display: none;
+	}
+
+	
+}
